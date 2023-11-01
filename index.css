@@ -1,0 +1,83 @@
+* { 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  padding: 10px 0 5px 5px;
+  background-color: rgb(3, 7, 247);
+ 
+ 
+}
+ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+li {
+  list-style: none;
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.basket{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-left: 25px;
+}
+
+section {
+  margin-top: 50px;
+    display: flex; 
+  justify-content: space-evenly; 
+}
+select {
+  border: 3px solid blue;
+  background-color: blue;
+  color: white;
+}
+.header-basket{
+  display: flex;
+  justify-content: space-between;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 75%;
+  margin-left: 30px;
+}
+.aside {
+  width: 25%;
+  margin-right: 30px;
+}
+.Favourites-wrapper {
+  width: 100%;
+  min-height: 28vh;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.basket-wrapper {
+  padding: 20px;
+  width: 100%;
+  min-height: 28vh;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.foot{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  padding:10px 0px;
+  border-top: 1px solid black
+}

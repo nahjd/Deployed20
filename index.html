@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basket Favorite Detail Page</title>
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- font awsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="" id="all-products">All products</a></li>
+        <li><a href="" id="man">Man</a></li>
+        <li><a href="" id="woman">Woman</a></li>
+        <li><a href="" id="accessories">Accessories</a></li>
+        <li><a href="" id="electronics">Electronics</a></li>
+        <li>
+           
+           <select name="filter" id="filter">
+            <option value="">Filter</option>
+            <option id="price-high" value="price-high">Price high</option>
+            <option id="price-low" value="price-low">Price low</option>
+            <option id="rate-high" value="rate-high">Rating high</option>
+            <option id="rate-low" value="rate-low">Rating low</option>
+           
+          </select> 
+          
+        </li>
+      </ul>
+      <div class="basket">
+        <a class="nav-link" href="./basket.html">
+          <i class="fa-solid fa-basket-shopping fa-2x"></i> Basket</a>
+      
+          <a class="nav-link" href="./wishlist.html"></a>
+          <i class="fa-solid fa-house fa-2x"></i>
+      </div>
+    </nav>
+   
+    <section>
+      <div class="card-container"></div>
+    
+      
+        <!-- <div class="foot">
+          <h3>Total</h3>
+         <h2 id="total">$ 0.00</h2>
+        </div>
+       -->
+
+    
+    </section>
+
+    <!-- sweetalert cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- my script  -->
+    <script src="./app.js"></script>
+  </body>
+</html>
